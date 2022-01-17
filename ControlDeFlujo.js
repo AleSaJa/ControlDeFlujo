@@ -96,7 +96,7 @@ if( isNaN(hora) || isNaN(temp2) || temp2<0 || temp2>365 || hora<0 || hora>24){
     //Comprueba que los datos ingresados sean correctos
     alert("Datos Invalidos");
 }else{
-    alert("Calendario del 2021\nDía: "+temp2+" "+diaSemana[getDayNumber(0,temp2)]+"\nHorario: "+hora+"hrs"+"\nEs horario de trabajo: "+getDayBusinessHours(hora,temp2));
+    alert("Calendario del 2022\nDía: "+temp2+" "+diaSemana[getDayNumber(0,temp2)]+"\nHorario: "+hora+"hrs"+"\nEs horario de trabajo: "+getDayBusinessHours(hora,temp2));
 }
 
 function getDayBusinessHours(hourNumber,yearDayNumber){
